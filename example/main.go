@@ -9,7 +9,7 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 
-	"github.com/anjmao/realtime"
+	"github.com/Sagarsaurus/realtime"
 )
 
 func randSleep() {
