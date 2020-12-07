@@ -1,4 +1,4 @@
-module github.com/anjmao/realtime
+module github.com/Sagarsaurus/realtime
 
 go 1.13
 
