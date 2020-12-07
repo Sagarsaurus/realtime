@@ -56,7 +56,7 @@ func (ep *epoll) registerTimerEvent(d time.Duration, handler timerHandler) (int,
 
 	ep.handlersMu.Lock()
 	if _, ok := ep.handlers[tfd]; ok {
-		return ep.handlers[tfd], nil
+		return tfd, nil
 	}
 	ep.handlers[tfd] = handler
 	ep.handlersMu.Unlock()
